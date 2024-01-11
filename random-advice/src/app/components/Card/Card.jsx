@@ -34,7 +34,7 @@ const Card = () => {
           "{advices.advice}"
         </h1>
       </div>
-      <div>
+      <div className="flex justify-center items-center">
         <Image src={Divider} alt="divder" width={500} />
       </div>
       <div className=" bg-teal-500 flex justify-center items-center rounded-full absolute w-14 h-14 mt-96 -my-16">
